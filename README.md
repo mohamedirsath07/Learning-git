@@ -49,11 +49,11 @@ Think of forking as getting your own laboratory to experiment in, while keeping 
 #### Step-by-Step Fork & Clone Process
 
 1. **Fork the repository**:
+
    - Go to `https://github.com/ORIGINAL_OWNER/Learning-git` (this repository)
    - Click the **"Fork"** button in the top-right corner
    - Choose your GitHub account as the destination
    - GitHub creates `https://github.com/YOUR_USERNAME/Learning-git`
-
 2. **Clone your fork locally**:
 
    ```bash
@@ -61,7 +61,6 @@ Think of forking as getting your own laboratory to experiment in, while keeping 
    git clone https://github.com/YOUR_USERNAME/Learning-git.git
    cd Learning-git
    ```
-
 3. **Verify your setup**:
 
    ```bash
@@ -69,7 +68,7 @@ Think of forking as getting your own laboratory to experiment in, while keeping 
    # Should show:
    # origin  https://github.com/YOUR_USERNAME/Learning-git.git (fetch)
    # origin  https://github.com/YOUR_USERNAME/Learning-git.git (push)
-   
+
    ls exercises/
    # Should show: 01-basic-commit  02-branching  03-merging  ...
    ```
@@ -78,14 +77,12 @@ Think of forking as getting your own laboratory to experiment in, while keeping 
 
 - **All exercises** should be completed in your forked repository
 - **All commits** will be saved to your GitHub account
-- **All GitHub Actions** (Exercise 6) will run on your repository
-- **All Docker deployment** (Exercise 7) will showcase your personal work
+- **All GitHub Actions** (Exercise 7) will run on your repository
+- **All Docker deployment** (Exercise 8) will showcase your personal work
 
-Your fork is your learning workspace and eventual portfolio piece!
+Your fork is your learning workspace so have fun and dont forget to experiment !!
 
-**Bonus**: Your repository includes a beautiful celebration website (`index.html` and `app.py`) that you'll containerize in the final Docker exercise to celebrate your achievements! 🎉
-
-### 2. Work Through Exercises
+2. Work Through Exercises
 
 Each exercise in `/exercises/` contains:
 
@@ -141,11 +138,7 @@ Every exercise here reflects real development scenarios. You'll:
 
 Think of this as your Git apprenticeship—learning through doing, not just reading.
 
-### Final Achievement: Professional Portfolio
-
-By the end, you'll have transformed your learning repository into a deployable web application that showcases all your work through an interactive interface, demonstrating both your Git mastery and modern DevOps skills.
-
-## Getting Help
+### Getting Help
 
 - Check `resources.md` for detailed external links
 - Each `developer_todo.md` includes expected outcomes
