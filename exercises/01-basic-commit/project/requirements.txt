@@ -1,0 +1,12 @@
+# Data Analysis CLI Tool Requirements
+
+# No external dependencies required for basic functionality
+# Using only Python standard library modules:
+# - statistics (for statistical calculations)
+# - json (for data export)
+# - typing (for type hints)
+
+# For development and testing (optional):
+# pytest>=7.0.0
+# black>=22.0.0
+# mypy>=0.950

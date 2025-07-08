@@ -1,0 +1,13 @@
+# Testing and CI/CD requirements
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code quality tools
+black>=22.0.0
+flake8>=5.0.0
+isort>=5.10.0
+mypy>=0.950
+
+# Optional: Enhanced analysis tools
+# pandas>=1.5.0
+# numpy>=1.23.0
