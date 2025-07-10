@@ -15,6 +15,7 @@ A Docker container that serves the celebration website we've prepared for you! 
 ## What's Already Prepared
 
 Your repository already contains:
+
 - `index.html` - A beautiful congratulations website with animations
 - `app.py` - A simple Python web server
 
@@ -32,6 +33,7 @@ ls -la
 ```
 
 Test the website locally (optional):
+
 ```bash
 python app.py
 # Visit http://localhost:8080 to see your celebration page!
@@ -52,12 +54,14 @@ WORKDIR /app
 # Copy our website files
 COPY index.html .
 COPY app.py .
+COPY ./assets ./assets
 
 # Expose port 8080
 EXPOSE 8080
 
 # Run our web server
 CMD ["python", "app.py"]
+
 ```
 
 ### 3. Build and Run Your Container
@@ -79,7 +83,7 @@ Open your browser to `http://localhost:8080` and see your celebration website! 
 üê≥ **You containerized an application!** You:
 
 - Learned how Docker works
-- Built a Docker image  
+- Built a Docker image
 - Ran a container
 - Served a web application
 
@@ -110,7 +114,7 @@ You did it! You've learned:
 
 - Git fundamentals
 - GitHub collaboration
-- GitHub Actions automation  
+- GitHub Actions automation
 - Docker containerization
 
 **You're now ready to tackle any development project!**
